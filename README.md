@@ -69,7 +69,7 @@ python3 rtf_tui.py document.rtf
 │   (edit document)      │   (auto-updating)          │
 │                        │                            │
 ├────────────────────────┴────────────────────────────┤
-│ Status Bar / Footer                                  │
+│ Status Bar / Footer                                 │
 └─────────────────────────────────────────────────────┘
 ```
 
