@@ -1,0 +1,136 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0\fswiss Arial;}{\f1\froman Times New Roman;}{\f2\fmodern Courier New;}}
+{\colortbl;\red0\green0\blue0;\red255\green0\blue0;\red0\green0\blue255;\red0\green128\blue0;}
+\f0\fs24
+
+\pard\qc
+\b\fs36 rtf-tui\b0\fs24\par
+
+\pard\qc
+\i A WYSIWYG RTF document editor for the terminal.\i0\par
+
+\pard\ql
+\par
+
+\pard\ql
+\b\fs28 Features\b0\fs24\par
+
+\pard\ql
+\fi360
+{\b \cf2 WYSIWYG editing\cf1 \b0} \'97 type and format text directly, see the result immediately\par
+{\b \cf2 Keyboard-driven\cf1 \b0} \'97 all formatting via shortcuts, no mouse required\par
+{\b \cf2 Live RTF generation\cf1 \b0} \'97 the RTF source updates in real time as you edit\par
+{\b \cf2 Open & save .rtf files\cf1 \b0} \'97 compatible with standard RTF documents\par
+{\b \cf2 Undo/redo\b0} \'97 full editing history\par
+{\b \cf2 Multiple themes\cf1 \b0} \'97 Dracula, Nord, Gruvbox, Catppuccin, Solarized\par
+
+\pard\ql
+\par
+
+\pard\ql
+\b\fs28 Installation\b0\fs24\par
+
+\pard\ql
+\f2 pip install textual rich\f0\par
+
+\pard\ql
+Requires Python 3.10+.\par
+
+\pard\ql
+\par
+
+\pard\ql
+\b\fs28 Usage\b0\fs24\par
+
+\pard\ql
+\f2 # New document\par
+python3 rtf_tui.py\par
+\par
+# Open existing RTF file\par
+python3 rtf_tui.py document.rtf\f0\par
+
+\pard\ql
+\par
+
+\pard\ql
+\b\fs28 Keyboard Shortcuts\b0\fs24\par
+
+\pard\ql
+\b Editing\b0\par
+
+\pard\ql
+\f2 Ctrl+B\f0  \'97 Toggle bold\par
+\f2 Ctrl+I\f0  \'97 Toggle italic\par
+\f2 Ctrl+U\f0  \'97 Toggle underline\par
+\f2 Ctrl+Z\f0  \'97 Undo\par
+\f2 Ctrl+Y\f0  \'97 Redo\par
+\f2 Ctrl+A\f0  \'97 Select all\par
+\f2 Shift+Arrows\f0  \'97 Extend selection\par
+\f2 Enter\f0  \'97 New paragraph\par
+\f2 Backspace\f0  \'97 Delete backward\par
+\f2 Delete\f0  \'97 Delete forward\par
+\f2 Home/End\f0  \'97 Jump to line start/end\par
+
+\pard\ql
+\b File Operations\b0\par
+
+\pard\ql
+\f2 Ctrl+S\f0  \'97 Save\par
+\f2 Ctrl+O\f0  \'97 Open file\par
+\f2 Ctrl+Q\f0  \'97 Quit\par
+\f2 Esc\f0  \'97 Close menu\par
+
+\pard\ql
+\par
+
+\pard\ql
+\b\fs28 Layout\b0\fs24\par
+
+\pard\ql
+\f2 +----------------------------------------+\par
+| Header / Menu Bar                       |\par
++------------------+----------------------+\par
+|                  |                      |\par
+|  WYSIWYG Editor  |  Generated RTF Code  |\par
+|  (edit document) |  (auto-updating)     |\par
+|                  |                      |\par
++------------------+----------------------+\par
+| Status Bar / Footer                      |\par
++----------------------------------------+\f0\par
+
+\pard\ql
+\par
+
+\pard\ql
+\b\fs28 Supported RTF Features\b0\fs24\par
+
+\pard\ql
+\fi360
+{\b \cf2 Font styles:\cf1 \b0} bold, italic, underline\par
+{\b \cf2 Alignment:\cf1 \b0} left, center, right\par
+{\b \cf2 Colors:\cf1 \b0} red, blue, green (extensible)\par
+{\b \cf2 Font sizes\b0} (via RTF import)\par
+{\b \cf2 Multiple paragraphs\b0}\par
+
+\pard\ql
+\par
+
+\pard\ql
+\b\fs28 File Structure\b0\fs24\par
+
+\pard\ql
+\f2 rtf-tui/\par
+  rtf_tui.py      # Main application\par
+  test.rtf        # Sample RTF file for testing\par
+  README.md\par
+  README.rtf\f0\par
+
+\pard\ql
+\par
+
+\pard\ql
+\b\fs28 License\b0\fs24\par
+
+\pard\ql
+MIT\par
+}
