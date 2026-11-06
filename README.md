@@ -1,5 +1,7 @@
 # rtf-tui
 
+![rtf-tui](shots/rtf-tui.svg)
+
 A WYSIWYG RTF document editor for the terminal. Edit rich text like Microsoft Word — RTF source code is generated automatically.
 
 ![screenshot](https://img.shields.io/badge/platform-terminal-green)
@@ -16,8 +18,11 @@ A WYSIWYG RTF document editor for the terminal. Edit rich text like Microsoft Wo
 ## Installation
 
 ```bash
-pip install textual rich
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+# or: uv run rtf_tui.py
 ```
+
+Pinned versions live in [`requirements.txt`](requirements.txt).
 
 Requires Python 3.10+.
 
